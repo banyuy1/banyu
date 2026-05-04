@@ -23,7 +23,7 @@ export default function Forgot() {
       return;
     }
 
-    // Nanti di sini lu kirim ke Firebase: sendPasswordResetEmail(auth, email)
+
     Alert.alert(
       'Email Terkirim', 
       `Link reset password sudah dikirim ke ${email}. Cek inbox/spam kamu.`,
@@ -44,7 +44,7 @@ export default function Forgot() {
         
         <Text style={styles.title}>Lupa Password?</Text>
         <Text style={styles.subtitle}>
-          Masukkan email kamu. Kami akan kirim link untuk reset password
+    
         </Text>
 
         <Text style={styles.label}>Email</Text>

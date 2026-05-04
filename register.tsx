@@ -42,7 +42,6 @@ export default function Register() {
         <Text style={styles.title}>Buat Akun Baru</Text>
         <Text style={styles.subtitle}>Silakan isi data untuk mendaftar</Text>
 
-        {/* Nama Lengkap */}
         <Text style={styles.label}>Nama Lengkap</Text>
         <View style={styles.inputContainer}>
           <Ionicons name="person-outline" size={20} color="#5f6368" style={styles.icon} />
@@ -54,7 +53,6 @@ export default function Register() {
           />
         </View>
 
-        {/* Email */}
         <Text style={styles.label}>Email</Text>
         <View style={styles.inputContainer}>
           <Ionicons name="mail-outline" size={20} color="#5f6368" style={styles.icon} />
@@ -68,7 +66,6 @@ export default function Register() {
           />
         </View>
 
-        {/* Password */}
         <Text style={styles.label}>Password</Text>
         <View style={styles.inputContainer}>
           <Ionicons name="lock-closed-outline" size={20} color="#5f6368" style={styles.icon} />
@@ -88,7 +85,6 @@ export default function Register() {
           </TouchableOpacity>
         </View>
 
-        {/* Konfirmasi Password */}
         <Text style={styles.label}>Konfirmasi Password</Text>
         <View style={styles.inputContainer}>
           <Ionicons name="lock-closed-outline" size={20} color="#5f6368" style={styles.icon} />
